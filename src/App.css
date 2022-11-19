@@ -22,7 +22,7 @@
     
   }
   .login-with-google-btn:hover, .logout-with-google-btn:hover {
-    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 2px 4px rgba(0, 0, 0, .25);
+    box-shadow: 0 1.5px 1.5px #edf2fb;
   }
 
   .logout-with-google-btn {

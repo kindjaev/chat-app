@@ -1,12 +1,12 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import {auth, db} from "../firebase"
 import { addDoc, collection, serverTimestamp } from 'firebase/firestore'
 
 
 const style = {
-    form: `bg-olive p-4 absolute bottom-0 w-[100%] h-18 rounded-b-xl`,
-    input: `w-[80%] p-2 px-4 rounded-xl float-left justify-right text-dark-olive`,
-    btn: `hover:shadow-lg bg-white w-[19%] rounded-xl py-2 px-4 float-right text-dark-olive text-center`
+    form: `p-4 absolute bottom-0 w-[100%] h-18 rounded-b-xl`,
+    input: `w-[80%] p-2 px-4 rounded-xl float-left justify-right text-blue`,
+    btn: `hover:shadow-sm hover:shadow-blue bg-blue w-[19%] rounded-xl py-2 px-4 float-right text-white text-center`
 }
 function SendMessage({scroll}) {
     const [input, setInput] = useState('')
